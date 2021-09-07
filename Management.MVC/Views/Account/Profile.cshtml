@@ -1,0 +1,14 @@
+@model List<StoresUsersVM>
+
+@{
+    foreach (var store in Model)
+    {
+        <div style="display:grid" >
+            <div asp-controller="Account" asp-action="Profile" method="post">
+                <img src="@store.ImageUrl" alt="@store.StoreName" style="width: 370px; height: 120px;">
+            </div>
+            <h4 class="p2"><b>@store.StoreName</b></h4>
+            <p class="p1">Number of products:@store.StoreProducts</p>
+        </div>
+    }
+}

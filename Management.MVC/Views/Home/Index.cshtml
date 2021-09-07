@@ -1,0 +1,16 @@
+﻿@model List<StoresVM>
+
+@{
+    foreach (var store in Model)
+    {
+        <div style="display:grid">
+            <form asp-controller="Store" asp-action="Store" asp-route-Id="@store.Id" method="post">
+                <button type="submit">
+                    <img src="@store.ImageUrl" alt="@store.StoreName" style="width: 370px; height: 120px;">
+                </button>
+            </form>
+            <h4 class="p2"><b>@store.StoreName</b></h4>
+            <p class="p1">Number of products:@store.StoreProducts</p>
+        </div>
+    }
+}

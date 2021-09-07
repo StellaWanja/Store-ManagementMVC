@@ -1,0 +1,92 @@
+[
+    {
+        "Id":"101",
+        "UserId":"1f0e9dd2-6c74-4bf4-91dc-875a498de795",
+        "StoreName":"WolfInc",
+        "StoreNumber":"44743",
+        "StoreType":"Kiosk",
+        "StoreProducts":910,
+        "ImageUrl" : "https://source.unsplash.com/P3pI6xzovu0"
+    },
+    {   
+        "Id":"102",
+        "UserId":"1f0e9dd2-6c74-4bf4-91dc-875a498de795",
+        "StoreName":"Stark",
+        "StoreNumber":"75",
+        "StoreType":"Supermarket",
+        "StoreProducts":912,
+        "ImageUrl" : "https://source.unsplash.com/tWbXJ-hE8sQ"
+    },
+    {   
+        "Id":"103",
+        "UserId":"99ed7527-4a03-45ab-9ff9-3882046299c8",
+        "StoreName":"Bruen",
+        "StoreNumber":"67586",
+        "StoreType":"Kiosk",
+        "StoreProducts":630,
+        "ImageUrl" : "https://source.unsplash.com/P0fL3KdLgzU"
+    },
+    {
+        "Id":"104",
+        "UserId":"99ed7527-4a03-45ab-9ff9-3882046299c8",
+        "StoreName":"SportsGray",
+        "StoreNumber":"6328",
+        "StoreType":"Supermarket",
+        "StoreProducts":195,
+        "ImageUrl" : "https://source.unsplash.com/sq5P00L7lXc"
+    },
+    {
+        "Id":"105",
+        "UserId":"6c819302-29b0-4bc5-8c19-da1f425ea1e0",
+        "StoreName":"Schuster",
+        "StoreNumber":"969",
+        "StoreType":"Kiosk",
+        "StoreProducts":773,
+        "ImageUrl" : "https://source.unsplash.com/pHdx3P6zVn0"
+    },
+    {
+        "Id":"106",
+        "UserId":"6c819302-29b0-4bc5-8c19-da1f425ea1e0",
+        "StoreName":"DareGroup",
+        "StoreNumber":"39",
+        "StoreType":"Supermarket",
+        "StoreProducts":619,
+        "ImageUrl" : "https://source.unsplash.com/rWMIbqmOxrY"
+    },
+    {
+        "Id":"107",
+        "UserId":"b6177dff-8326-4b06-888d-b15ae225cfc0",
+        "StoreName":"Angels",
+        "StoreNumber":"2",
+        "StoreType":"Kiosk",
+        "StoreProducts":432,
+        "ImageUrl" : "https://source.unsplash.com/c7FlWx3DEXI"
+    },
+    {   
+        "Id":"108",
+        "UserId":"b6177dff-8326-4b06-888d-b15ae225cfc0",
+        "StoreName":"Pelican",
+        "StoreNumber":"77",
+        "StoreType":"Supermarket",
+        "StoreProducts":673,
+        "ImageUrl" : "https://source.unsplash.com/ezeC8-clZSs"
+    },
+    {
+        "Id":"109",
+        "UserId":"7bb8b117-6e24-48f9-a247-77597dfa553e",
+        "StoreName":"Consol",
+        "StoreNumber":"7134",
+        "StoreType":"Kiosk",
+        "StoreProducts":824,
+        "ImageUrl" : "https://source.unsplash.com/qnKhZJPKFD8"
+    },
+    {
+        "Id":"110",
+        "UserId":"7bb8b117-6e24-48f9-a247-77597dfa553e",
+        "StoreName":"Swan",
+        "StoreNumber":"464",
+        "StoreType":"Supermarket",
+        "StoreProducts":215,
+        "ImageUrl" : "https://source.unsplash.com/F6-U5fGAOik"
+    }
+]

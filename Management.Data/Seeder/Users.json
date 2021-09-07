@@ -1,0 +1,37 @@
+[
+    {
+        "Id":"1f0e9dd2-6c74-4bf4-91dc-875a498de795",
+        "FirstName":"Luke",
+        "LastName":"Skywalker",
+        "Email":"luke@email.com",
+        "Password":"123#Abc"
+    },
+    {
+        "Id":"99ed7527-4a03-45ab-9ff9-3882046299c8",
+        "FirstName":"Lucy",
+        "LastName":"Rose",
+        "Email":"rose@email.com",
+        "Password":"123#Abc"
+    },
+    {
+        "Id":"6c819302-29b0-4bc5-8c19-da1f425ea1e0",
+        "FirstName":"Elana",
+        "LastName":"Bendan",
+        "Email":"ebendan2@gov.uk",
+        "Password":"WnWu$TB10"
+    },
+    {
+        "Id":"b6177dff-8326-4b06-888d-b15ae225cfc0",
+        "FirstName":"Pierette",
+        "LastName":"Berthome",
+        "Email":"pberthome3@nbcnews.com",
+        "Password":"X27ZwKd3M!0"
+    },
+    {
+        "Id":"7bb8b117-6e24-48f9-a247-77597dfa553e",
+        "FirstName":"Cosmo",
+        "LastName":"Shenley",
+        "Email":"cshenley4@aol.com",
+        "Password":"rHtHsI3cBh@G"
+    }
+]

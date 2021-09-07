@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Management.Models",
+    "\\Management.MVC",
+    "\\Management.MVC\\Controllers",
+    "\\Management.MVC\\Views",
+    "\\Management.MVC\\Views\\Account",
+    "\\Management.MVC\\Views\\Error",
+    "\\Management.MVC\\Views\\Home"
+  ],
+  "SelectedNode": "\\Management.MVC\\Views\\_ViewImports.cshtml",
+  "PreviewInSolutionExplorer": false
+}

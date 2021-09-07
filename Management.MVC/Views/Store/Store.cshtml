@@ -1,0 +1,9 @@
+@model StoreVM
+<div style="display:grid">
+    <a href="#">
+    <img src="@Model.ImageUrl" alt="@Model.StoreName" style="width: 370px; height: 120px;" />
+    <h4 class="p2"><b>@Model.StoreName</b></h4>
+    <p class="p1">Number of products:@Model.StoreProducts</p>
+    <p class="p1">Store Number: @Model.StoreNumber</p>
+    <p class="p1">Store Type @Model.StoreType</p>
+</div>

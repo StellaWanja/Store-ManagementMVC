@@ -1,0 +1,59 @@
+@model RegistrationVM
+@{
+
+}
+<div>
+    @{
+        var errMsg = string.Empty;
+        var welcomeMsg = string.Empty;
+
+        if (ViewData["Error"] != null)
+        {
+            errMsg = ViewData["Error"].ToString();
+        }
+
+        if (ViewBag.User != null)
+        {
+            welcomeMsg = ViewBag.User.ToString();
+        }
+    }
+    <span >@errMsg</span>
+    <span >@welcomeMsg</span>
+
+    <form  method="post">
+        <div >
+            <label asp-for="FirstName"></label>
+            <input type="text" asp-for="FirstName"  />
+            <span asp-validation-for="FirstName" ></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input type="text" asp-for="LastName"  />
+            <span asp-validation-for="LastName" ></span>
+        </div>
+        <div >
+
+            <label asp-for="UserName"></label>
+            <input type="text" asp-for="UserName"  />
+            <span asp-validation-for="UserName" ></span>
+        </div>
+        <div >
+
+            <label asp-for="Email"></label>
+            <input type="text" asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+
+            <label asp-for="Password"></label>
+            <input type="text" asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div>
+            <label asp-for="ConfirmPassword"></label>
+            <input type="text" asp-for="ConfirmPassword"/>
+            <span asp-validation-for="ConfirmPassword" ></span>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</div>
